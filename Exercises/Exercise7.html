@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Methods</title>
+</head>
+<body style="background-color:skyblue">
+<form action="mailto:ind.in@capgemini.com" name="ab" method="post" enctype="multipart/form-data">
+<p>
+Enter the Password:
+<input type="password" name="USERNAME" size="20" value="abc" tabindex="3">
+<input type="hidden" name="coname" value="PCS">
+Enter your Surname:
+<input type="text" name="SURNAME" size="20" readonly value="Sukuru" tabindex="2" maxlength="30"><br><br>
+Address:
+<textarea name="addr" Rows="5" cols="40" tabindex="0" accesskey="A">Enter Your Address</textarea><br><br>
+Select the Training Programs Attended:<br>
+<input type="checkbox" name="s-cobol">COBOL
+<input type="checkbox" name="s-idms" checked>IDMS
+<input type="checkbox" name="s-java">JAVA <br><br>
+Select the Group you belong:
+<input type="radio" name="s-grp" value="grp1">Group 1
+<input type="radio" name="s-grp" value="grp2">Group 2
+<input type="radio" name="s-grp" value="grp3">Group 3
+<input type="radio" name="s-grp" value="oth">Others<br><br>
+Which Training Program would you like to attend?
+<select name="pref">
+<option value="JS">Java Script</option>
+<option value="COBRA">COBRA</option>
+<option value="VB6">Visual Basic 6</option>
+</select>
+</p>
+<input type="file" name="fnm"><br><br>
+<input type="button" name="button" value="Exit">
+<input type="submit" name="s-button" value="Save">
+<input type="reset" value="Reset">
+
+</form>
+</body>
+</html>
